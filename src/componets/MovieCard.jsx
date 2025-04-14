@@ -29,14 +29,14 @@ function MovieCard({ movie }) {
               onClick={toggleIsFavourite}
               className="ms-3 like-btn">
               {favourite ?
-                <img src="/icons/heart-solid-red.svg" style={{ width: "100%" }} alt="red-heart-icon"/>
+                <img src="/movieApp/icons/heart-solid-red.svg" style={{ width: "100%" }} alt="red-heart-icon"/>
                 :
-                <img src="/icons/heart-solid.svg" style={{ width: "100%" }} alt="heart-icon" />
+                <img src="/movieApp/icons/heart-solid.svg" style={{ width: "100%" }} alt="heart-icon" />
               }
             </button>
 
             <Link to={"/play_video?movie_id=" + movie.id} className="ms-3 play-btn">
-              <img src="/icons/play-solid.svg" alt="play-icon" />
+              <img src="/movieApp/icons/play-solid.svg" alt="play-icon" />
             </Link>
           </div>
         </div>

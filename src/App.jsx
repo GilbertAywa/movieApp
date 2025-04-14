@@ -11,16 +11,16 @@ function App() {
   return (
     <MovieProvider>
       <Navbar />
-      <main className="container" style={{minHeight: "80vh"}}>
+      <main className="container" style={{minHeight: "90vh"}}>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/movieApp" element={<Home />} />
           <Route path="/favourite" element={<Favourite />} />
           <Route path="/play_video" element={<Video />} />
         </Routes>
       </main>
       <Footer />
       <a href="#" className="go-to-top">
-        <img src="/icons/circle-up-regular.svg" alt="go-top-icon" />
+        <img src="./icons/circle-up-regular.svg" alt="go-top-icon" />
       </a>
     </MovieProvider>
   )
