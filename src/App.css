@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'CSGarth'; /* Name you want to use in CSS */
-    src: url('src/assets/fonts/CSGarth-ExtrudeRight.otf') format('truetype'); /* Path to your font file */
+    font-family: 'CSGarth'; 
+    src: url('/movieApp/src/assets/fonts/CSGarth-ExtrudeRight.otf') format('truetype'); 
 }
 
 /********* COLORS VARIABLES START *********/
